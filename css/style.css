@@ -38,14 +38,3 @@ a#normallink:hover {
 	border-bottom:5px solid;
 }
 	
-
-
-div#tile {
-	padding:10px;
-	border-width:10px;
-	border-color:white;
-	border-radius:20px;
-	-moz-border-radius 10px;
-	-webkit-border-radius:10px;
-}
-
