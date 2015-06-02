@@ -15,6 +15,11 @@ h1,h3{
 	color:white;
 }
 
+li {
+	color:white;
+	list-style:square;
+}
+
 a {
 	padding:10px;
 	color:white;
@@ -31,9 +36,14 @@ a#normallink {
 }
 
 a:hover {
-	border-bottom:5px dotted;
+	border-bottom:5px solid;
 }
 
 a#normallink:hover {
 	border-bottom:5px solid;
+}
+
+::selection {
+	background-color:white;
+	color:black;
 }
