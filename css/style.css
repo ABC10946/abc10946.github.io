@@ -1,7 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Numans);
+@import url(https://fonts.googleapis.com/css?family=Cinzel);
+
 
 body {
 	margin:0px;
+	font-family:Numans;
 }
 
 h1,h3{
@@ -71,7 +74,6 @@ a#normallink:hover {
 }
 
 .content {
-	font-family: 'Numans', sans-serif;
 	background-color:white;
 	font-size:20px;
 	height:500px;
