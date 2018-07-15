@@ -68,7 +68,7 @@ a#normallink:hover {
 }
 
 .header a:hover {
-	border-bottom:5px solid;
+	border-bottom:3px solid;
 
 }
 
@@ -88,15 +88,37 @@ a#normallink:hover {
 .links {
 	bottom:0px;
 	padding:20px;
+	background-color:#848484;
+	transition: all 300ms 0s;
+}
+
+.links:hover {
 	background-color:#E6E6E6;
 }
 
 .links li {
 	padding:10px;
+	height:40px;
+	list-style-type:none;
 }
 
 span#sub-head {
 	background-color:black;
 	color:white;
 	padding:5px;
+	transition:all 300ms 0s ease;
+}
+
+span#sub-head:hover {
+	background-color:#2ECCFA;
+}
+
+.links img {
+	width:40px;
+	height:40px;
+	transition:all 500ms 0s;
+}
+
+.links img:hover {
+	transform:rotate(360deg);
 }
