@@ -76,6 +76,7 @@ a#normallink:hover {
 	font-size:20px;
 	width:50%;
 	margin:auto;
+	height:500px;
 }
 
 .profile li{
@@ -92,9 +93,9 @@ a#normallink:hover {
 }
 
 .links {
-	position:fixed;
 	bottom:0px;
 	padding:20px;
+	background-color:#E6E6E6;
 }
 
 .links li {
