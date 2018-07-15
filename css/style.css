@@ -46,7 +46,7 @@ a#normallink:hover {
 	border:black;
 	color:white;
 	font-size:50px;
-	padding:50px;
+	padding:10px;
 }
 
 .header a {
@@ -74,22 +74,14 @@ a#normallink:hover {
 	font-family: 'Numans', sans-serif;
 	background-color:white;
 	font-size:20px;
-	width:50%;
-	margin:auto;
 	height:500px;
+	padding:20px;
 }
 
 .profile li{
-	margin:auto;
 	text-align:left;
-}
-
-.icon {
-	position:fixed;
-	right:0;
-	top:0;
-	width:10%;
-	border:7px yellow dashed;
+	padding:10px;
+	list-style-type:none;
 }
 
 .links {
@@ -100,4 +92,10 @@ a#normallink:hover {
 
 .links li {
 	padding:10px;
+}
+
+span#sub-head {
+	background-color:black;
+	color:white;
+	padding:5px;
 }
